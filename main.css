@@ -1,105 +1,71 @@
-html {
-    background-color: lightgray;
-  }
-  body {
-    background-color: lightgray;
-
-  }
-  h1 {
-    margin: 20px 0;
-    padding: 20px 0;    
-    color: teal;
-  }
-  h2 {
-    color: teal
-  }
-  main {
-    color: teal
-  }
-
-
-  .fig2 {
-   
-    margin: 0 auto;
-    background-color: white;
-    color: antiquewhite;
-    padding: 20px 20px 20px 20px;
-    border: 5px;
-  }
-  .fig {
-    width: 50px;
-    height: 25px;
-    float: "left";
-    margin: 0 auto;
-    background-color: teal;
-    color: antiquewhite;
-    padding: 20px 20px 20px 20px;
-    border: 5px;
-  }
-
-  .image {
-    width: 300px;
-    height: 250px;
-  }
-  .aboutme {
-    width: 960px;
-    height: 600px;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    padding: 20px 20px 20px 20px;
-    border: 5px solid white;
-  }
-   .form action {
-     width: 600px;
-     height: 600px;
-     margin: 0 auto;
-    }
-
-   .footer {
-        width: 1600px;
-        height: 10px;
-        margin: 0 auto;
-        border-top: 10px teal;
-        background-color: rgb(90, 85, 85);
-        padding: 50px 50px 50px 50px;
-        border: 100px teal;   
-    }
-    
-  li {
-    color: teal;
-    float: right;
-    display: block;
-  color: teal;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  }
-
-.contactmelist {
-    color: teal;
-    float: left;
-    display: block;
-  color: teal;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-    
-}
-
-
-  .testclass {
-    color: teal;
-    float: right;
-    display: block;
-
-  }
-
-
-ul1 {
-  list-style-type: none;
+body {
+  background-color: lightgray;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+}
+h1 {
+  margin: 20px 0;
+  padding: 20px 0;
+  color: teal;
+}
+main {
+  color: teal 
+}`
+header {
+  margin-bottom: 30px;
   background-color: white;
-  color: lightgray
+  border-bottom: 2px solid #c1c1c1;
+}
+nav {
+  float: right;
+}
+.centered-header {
+  width: 960px; /* this is the same width as the `main` element */
+  margin: 0 auto; /* this makes it centered */
+}
+.full-name {
+  width: 50px;
+  height: 25px;
+  background-color: teal;
+  color: antiquewhite;
+  padding: 20px 20px 20px 20px;
+  border: 5px;
+  display: inline-block;
+}
+.image {
+  width: 300px;
+  height: 250px;
+}
+main {
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid #00cece;
+}
+.form-action {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  border-top: 10px solid teal;
+  background-color: rgb(90, 85, 85);
+  margin-top: 30px;
+}
+li {
+  color: teal;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-list {
+  color: teal;
+  float: right;
+  display: block;
 }
